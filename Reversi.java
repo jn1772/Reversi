@@ -286,7 +286,7 @@ class Board{
             HashSet<Point> locationsOpp = getPlaceableLocations(opponent, player);
             
             double multiplier = 1;
-            if(isStable(p, player)) multiplier = 3.0f;
+            if(isStable(p, player)) multiplier = 3.0;
 //            multiplier += frontierValue(moveRecord); 
             int playerMoves = locations.size(), opponentMoves = locationsOpp.size();
              
